@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+header {
+  height: 80px;
+  background-color: rgb(212, 47, 61);
+}
+main {
+  padding: 100px;
+  background-color: rgb(127, 119, 206);
+  color: #fff;
+  font-size: 22px;
+}
+aside {
+  text-align: center;
+  width: 673.1px;
+  padding: 65px 0px;
+  background-color: rgba(216, 216, 135, 0.877);
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid;
+}
+
+footer {
+  padding: 30px;
+  background-color: rgb(212, 47, 61);
+}
+
+button {
+  padding: 16px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(49, 41, 41);
+}
+
+.counter_window {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+.counter_div {
+  padding: 20px;
+}
