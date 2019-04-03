@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;  
+  padding: 0;
+}
+
+ul li {
+  margin: auto;
+  border: 1px solid rgb(206, 163, 163);
+  width: 25%;
+  border-radius: 12px;
+  box-shadow: 5px 10px 8px #888888;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  width: 55%;
+  margin: 5px;
+  outline-color: #888888;
+}
+
+.form_add_dish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button {
+  width: 32%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
